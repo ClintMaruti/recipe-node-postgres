@@ -1,0 +1,30 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "Recipe app manager using Node and Postgress",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClintPy/recipe-node-postgres.git"
+  },
+  "author": "Clint Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClintPy/recipe-node-postgres/issues"
+  },
+  "homepage": "https://github.com/ClintPy/recipe-node-postgres#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "dust": "^0.3.0",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0"
+  }
+}
